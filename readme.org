@@ -849,7 +849,7 @@ results
 Produce base layer from separate alphas, thumbs, and hold tables.
 
 #+NAME: table-layer-taphold
-#+BEGIN_SRC python :session :var alphas_table=colemakdh :var thumbs_table=thumbs :var hold_table=hold :tangle no :results verbatim
+#+BEGIN_SRC python :session :var alphas_table=colemak :var thumbs_table=thumbs :var hold_table=hold :tangle no :results verbatim
 results = ''
 for tap_row, hold_row in zip(alphas_table + thumbs_table, hold_table):
   for tap, hold in zip(tap_row, hold_row):
