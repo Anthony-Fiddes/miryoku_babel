@@ -2642,6 +2642,6 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #endif
 #+END_SRC
 
-** 
+**
 
 [[https://github.com/manna-harbour][https://raw.githubusercontent.com/manna-harbour/miryoku/master/data/logos/manna-harbour-boa-32.png]]
